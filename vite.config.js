@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/",   // IMPORTANT FIX FOR NETLIFY
+  base: "/portfolio-react/",   // REQUIRED FOR GITHUB PAGES
 })
